@@ -39,3 +39,22 @@ Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/RitaSelimi/basic_repo.git
  * [new branch]      main -> main
+
+Admin@DESKTOP-G1B4UCJ MINGW64 ~/Desktop/basic_repo (main)
+$ git add .
+
+Admin@DESKTOP-G1B4UCJ MINGW64 ~/Desktop/basic_repo (main)
+$ git commit -m "Second commit"
+[main 5026cf2] Second commit
+ 1 file changed, 41 insertions(+)
+
+Admin@DESKTOP-G1B4UCJ MINGW64 ~/Desktop/basic_repo (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 707 bytes | 707.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RitaSelimi/basic_repo.git
+   5e8a204..5026cf2  main -> main
